@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.black87,
                     fontSize: 30,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 Text(
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.black87,
                     fontSize: 23,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ],
@@ -73,7 +75,8 @@ class MyApp extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Icon(Icons.access_time, color: Colors.blue.shade900),
+                            Icon(Icons.access_time,
+                                color: Colors.blue.shade900),
                             SizedBox(width: 8),
                             Text(
                               'Когда',
@@ -97,8 +100,10 @@ class MyApp extends StatelessWidget {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text('Мои заселения', style: TextStyle(color: Colors.blue.shade900)),
-                            Text('Предстоящие и предыдущие', style: TextStyle(color: Colors.grey)),
+                            Text('Мои заселения',
+                                style: TextStyle(color: Colors.blue.shade900)),
+                            Text('Предстоящие и предыдущие',
+                                style: TextStyle(color: Colors.grey)),
                           ],
                         ),
                       ],
